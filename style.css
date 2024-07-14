@@ -73,13 +73,14 @@ body {
 }
 
 .container__description {
-  width: 33.75rem;
+  width: 30rem;
   height: auto;
   font-weight: 400;
   padding-bottom: 4rem;
   font-size: 0.9375rem;
   color: var(--GrayishBlue);
   opacity: 0.5;
+  letter-spacing: 0.104px;
   line-height: 1.5625rem;
 }
 
@@ -132,7 +133,6 @@ body {
   line-height: 1.4375rem;
   color: var(--GrayishBlue);
   opacity: 0.5;
-  margin-left: 2rem;
 }
 
 .card--supervisor {
