@@ -102,10 +102,16 @@ body {
   display: flex;
   flex-direction: column;
   height: 15.625rem;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
   padding: 2rem;
   border-radius: 8px;
   margin-bottom: 25px;
+  box-shadow: 5px 10px 30px rgba(134, 169, 193, 0.5);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translate(5px, 5px);
+  box-shadow: 8px 13px 30px rgba(134, 169, 193, 0.5);
 }
 
 .card-container {
